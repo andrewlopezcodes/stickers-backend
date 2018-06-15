@@ -22,8 +22,14 @@ const stickers =[
   }
 ];
 
-
+const sticker = {
+        "title": "Google Chrome",
+        "description": "Google Chrome",
+        "rating": 10,
+        "url": "https://devstickers.com/assets/img/cat/chrome.png"
+    };
 
 module.exports = {
-  stickers
+  stickers,
+  sticker
 }
