@@ -10,4 +10,8 @@ module.exports = {
     client: 'pg',
     connection: 'postgres://localhost/test-stickers-web-store'
   },
+  production:{
+    client: 'pg',
+    connection: process.env.DATABASE_URL
+  }
 };
